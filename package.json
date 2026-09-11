@@ -1,0 +1,10 @@
+{
+  "name": "pyxSimulator",
+  "uuid": "95e6ba8d-d0af-442c-b8e7-ac4a458bba59",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "dependencies": {
+    "fairygui-cc": "^1.2.2"
+  }
+}
