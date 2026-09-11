@@ -1,0 +1,27 @@
+{
+  "typescript": "5.8.2",
+  "method": "read-only TypeScript API diagnostics; no program.emit or terminal tsc",
+  "noEmit": true,
+  "skipLibCheck": true,
+  "rootFiles": [
+    "D:/cocosProject/pyxSimulator/assets/scripts/UIBootstrap.ts",
+    "D:/cocosProject/pyxSimulator/assets/scripts/core/event/LifeEvent.ts",
+    "D:/cocosProject/pyxSimulator/assets/scripts/core/factory/PlayerFactory.ts",
+    "D:/cocosProject/pyxSimulator/assets/scripts/core/model/DataValidation.ts",
+    "D:/cocosProject/pyxSimulator/assets/scripts/core/model/GameState.ts",
+    "D:/cocosProject/pyxSimulator/assets/scripts/core/model/PlayerData.ts",
+    "D:/cocosProject/pyxSimulator/assets/scripts/core/system/EffectSystem.ts",
+    "D:/cocosProject/pyxSimulator/assets/scripts/core/system/EventSystem.ts",
+    "D:/cocosProject/pyxSimulator/assets/scripts/debug/SimulationChecks.ts",
+    "D:/cocosProject/pyxSimulator/assets/scripts/debug/SimulationDebugRunner.ts",
+    "D:/cocosProject/pyxSimulator/assets/scripts/manager/GameManager.ts",
+    "D:/cocosProject/pyxSimulator/assets/scripts/manager/SaveManager.ts",
+    "D:/cocosProject/pyxSimulator/assets/scripts/repository/EventRepository.ts",
+    "D:/cocosProject/pyxSimulator/assets/scripts/repository/EventValidation.ts",
+    "D:/cocosProject/pyxSimulator/temp/declarations/cc.custom-macro.d.ts",
+    "D:/cocosProject/pyxSimulator/temp/declarations/cc.d.ts",
+    "D:/cocosProject/pyxSimulator/temp/declarations/cc.env.d.ts",
+    "D:/cocosProject/pyxSimulator/temp/declarations/jsb.d.ts"
+  ],
+  "diagnostics": []
+}

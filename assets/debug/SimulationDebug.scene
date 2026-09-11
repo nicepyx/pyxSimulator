@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.SceneAsset",
-    "_name": "LoadingScene",
+    "_name": "SimulationDebug",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_native": "",
@@ -11,13 +11,16 @@
   },
   {
     "__type__": "cc.Scene",
-    "_name": "LoadingScene",
+    "_name": "SimulationDebug",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": null,
     "_children": [
       {
         "__id__": 2
+      },
+      {
+        "__id__": 20
       }
     ],
     "_active": true,
@@ -54,7 +57,7 @@
     "_globals": {
       "__id__": 11
     },
-    "_id": "ee5422c5-7762-47ab-bd38-aaea98abfc07"
+    "_id": "35cb72d9-7721-4979-a895-fec3bb020c01"
   },
   {
     "__type__": "cc.Node",
@@ -339,8 +342,8 @@
     "_target": null,
     "_left": 0,
     "_right": 0,
-    "_top": 5.684341886080802e-14,
-    "_bottom": 5.684341886080802e-14,
+    "_top": 5.684341886080802E-14,
+    "_bottom": 5.684341886080802E-14,
     "_horizontalCenter": 0,
     "_verticalCenter": 0,
     "_isAbsLeft": true,
@@ -530,5 +533,63 @@
   {
     "__type__": "cc.PostSettingsInfo",
     "_toneMappingType": 0
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "SimulationDebugRunner",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 21
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "06792541-96e7-4f4e-b842-109161f3edff"
+  },
+  {
+    "_name": "",
+    "__type__": "19f244GwSNFcIgy6hGFBdA/",
+    "runOnStart": true,
+    "__editorExtras__": {},
+    "_enabled": true,
+    "node": {
+      "__id__": 20
+    },
+    "__prefab": null,
+    "_objFlags": 0,
+    "_id": "bea24ee3-acea-4d74-9d7c-7243e99709d0"
   }
 ]

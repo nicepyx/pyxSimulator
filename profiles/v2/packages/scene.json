@@ -96,8 +96,8 @@
     },
     "ee5422c5-7762-47ab-bd38-aaea98abfc07": {
       "position": {
-        "x": 640.0000000000001,
-        "y": 360.0000000000001,
+        "x": 690.758408270576,
+        "y": 442.2125091035796,
         "z": 5000
       },
       "rotation": {
@@ -112,12 +112,12 @@
         "z": 0
       },
       "contentRect": {
-        "x": -586.241569589209,
-        "y": -457.4943797261393,
-        "width": 1280,
-        "height": 720
+        "x": -434.85934107334765,
+        "y": -332.3542111173465,
+        "width": 1398,
+        "height": 923
       },
-      "scale": 0.76453125
+      "scale": 0.6209923399017281
     }
   },
   "camera-uuids": [
@@ -149,5 +149,9 @@
   "scene_view": {
     "isSceneLightOn": true,
     "output_device": "__default_design__"
+  },
+  "game-view": {
+    "scaleValue": 37,
+    "sliderValue": 15
   }
 }

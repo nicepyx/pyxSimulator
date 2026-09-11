@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="usqj40p1">
+  <resources>
+    <component id="c4al0" name="MainView.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="" path="D:\cocosProject\pyxSimulator\assets\resources\fgui" packageCount="2"/>
+</packageDescription>

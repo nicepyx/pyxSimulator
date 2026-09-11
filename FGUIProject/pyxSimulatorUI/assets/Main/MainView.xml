@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920">
+  <displayList>
+    <graph id="n0_c4al" name="bg" xy="0,0" size="1080,1920" type="rect" fillColor="#ff8e8888"/>
+    <text id="n1_c4al" name="title" xy="340,100" size="400,100" fontSize="48" autoSize="none" text="人生模拟器"/>
+  </displayList>
+</component>

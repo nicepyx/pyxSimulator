@@ -1,0 +1,68 @@
+[
+  {
+    "id": "primary_first_day",
+    "title": "第一次上小学",
+    "content": "我终于上小学了。\n\n校园里比想象中热闹得多。\n教学楼里到处都是说话声，\n楼上的护栏边也挤着不少学生。\n\n我抬头看了几眼，\n心里突然有些紧张。\n\n小学和幼儿园，会差很多吗？\n\n爸妈把我送到了班级门口。\n\n教室里已经来了不少人。\n\n我背着书包走进去，\n看了看剩下的位置。",
+    "type": "main",
+    "once": true,
+    "minAge": 6,
+    "maxAge": 6,
+    "stages": ["childhood"],
+    "logDescription": "我第一次走进了小学教室。",
+    "choices": [
+      {
+        "id": "rear_seat",
+        "text": "找一个靠后排的位置坐下",
+        "effects": { "hidden": { "independence": 1, "curiosity": 1 }, "addTags": ["first_day_rear_seat"] },
+        "nextEventId": "primary_first_break"
+      },
+      {
+        "id": "front_seat",
+        "text": "找一个靠前的位置坐下",
+        "effects": { "hidden": { "confidence": 1, "curiosity": 1 }, "addTags": ["first_day_front_seat"] },
+        "nextEventId": "primary_first_break"
+      },
+      {
+        "id": "social_seat",
+        "text": "找一个看起来好相处的同学旁边坐下",
+        "effects": { "hidden": { "confidence": 1 }, "visible": { "social": 1 }, "addTags": ["first_day_social_seat"] },
+        "nextEventId": "primary_first_break"
+      },
+      {
+        "id": "wait_teacher",
+        "text": "站在门口等老师安排",
+        "effects": { "addTags": ["first_day_wait_teacher"] },
+        "nextEventId": "primary_first_break"
+      }
+    ]
+  },
+  {
+    "id": "primary_first_break",
+    "title": "第一次下课",
+    "content": "下课铃响了。\n\n教室里一下子热闹起来。\n\n旁边几个同学站起来往外走。\n\n其中一个人回头看了看我：\n\n“走啊，出去玩。”\n\n我其实还有点紧张。\n\n毕竟大家才刚认识没多久。",
+    "type": "chain",
+    "once": true,
+    "minAge": 6,
+    "maxAge": 6,
+    "stages": ["childhood"],
+    "requiredCompletedEvents": ["primary_first_day"],
+    "logDescription": "小学的第一次下课，我开始认识身边的新同学。",
+    "choices": [
+      {
+        "id": "join",
+        "text": "跟他们一起出去",
+        "effects": { "hidden": { "confidence": 1 }, "visible": { "social": 1, "happiness": 1 }, "addTags": ["joined_classmates_first_break"] }
+      },
+      {
+        "id": "stay",
+        "text": "摇摇头，继续坐在座位上",
+        "effects": { "addTags": ["stayed_in_class_first_break"] }
+      },
+      {
+        "id": "hesitate_join",
+        "text": "有点犹豫，但还是跟了过去",
+        "effects": { "hidden": { "confidence": 1 }, "addTags": ["hesitated_but_joined_first_break"] }
+      }
+    ]
+  }
+]
